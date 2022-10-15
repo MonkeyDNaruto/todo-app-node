@@ -1,20 +1,30 @@
 {
   "name": "projects",
   "version": "1.0.0",
-  "description": "",
+  "description": "#### Tech Stacks - Express Js - Mongo DB - Html,Css,Bootstrap",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev":"nodemon index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "mongoose": "^6.6.5"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MonkeyDNaruto/todo-app-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MonkeyDNaruto/todo-app-node/issues"
+  },
+  "homepage": "https://github.com/MonkeyDNaruto/todo-app-node#readme"
 }
