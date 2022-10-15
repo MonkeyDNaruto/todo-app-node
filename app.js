@@ -4,7 +4,7 @@ const app = express();
 
 app.get('/status',(req,res)=>{
     res.status(200).json({
-        success:true,
+        success:true, 
         data:[],
         messsage:'server is running...'
     });
